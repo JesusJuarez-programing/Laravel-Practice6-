@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('send', 'EmailController@send');
+
+// Route::post('send', 'EmailController@send');
+// Route::get('email', 'EmailController@email');
