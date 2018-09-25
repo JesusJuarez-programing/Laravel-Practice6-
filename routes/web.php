@@ -15,7 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('send', 'EmailController@send');
+Route::get('users', 'pagination@users');
+
+// Route::get('send', 'EmailController@send');
 
 // Route::post('send', 'EmailController@send');
 // Route::get('email', 'EmailController@email');
